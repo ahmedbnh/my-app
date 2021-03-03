@@ -1,6 +1,7 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Méditerravenir",
+  "text": "Méditerravenir a pour objectif de renforcer le dialogue et faciliter les projets Sud-Sud-Nord entre individus et institutions du bassin méditerranéen.",
+
   "button": [
     {
       "title": "Explore"

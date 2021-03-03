@@ -2,6 +2,8 @@ import { useState, Fragment, lazy } from "react";
 import { Row, Col, Drawer } from "antd";
 import { CSSTransition } from "react-transition-group";
 import { withTranslation } from "react-i18next";
+import {Redirect} from 'react-router-dom';
+
 
 import * as S from "./styles";
 
@@ -32,26 +34,29 @@ const Header = ({ t }) => {
     return (
       <Fragment>
         <S.CustomNavLinkSmall onClick={() => scrollTo("about")}>
-          <S.Span>{t("About")}</S.Span>
+          <S.Span>{t("A propos")}</S.Span>
         </S.CustomNavLinkSmall>
-        <S.CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <S.Span>{t("Mission")}</S.Span>
+         <S.CustomNavLinkSmall onClick={() => scrollTo("Evenement")}>
+          <S.Span>{t("Evenement")}</S.Span>
         </S.CustomNavLinkSmall>
-        <S.CustomNavLinkSmall onClick={() => scrollTo("product")}>
-          <S.Span>{t("Product")}</S.Span>
+        <S.CustomNavLinkSmall onClick={() => scrollTo("Service")}>
+          <S.Span>{t("Service")}</S.Span>
         </S.CustomNavLinkSmall>
-        <S.CustomNavLinkSmall
-          style={{ width: "180px" }}
-          onClick={() => scrollTo("contact")}
-        >
-          <S.Span>
-            <Button>{t("Contact")}</Button>
-          </S.Span>
+        <S.CustomNavLinkSmall onClick={() => scrollTo("Partenariats")}>
+          <S.Span>{t("Partenariats")}</S.Span>
         </S.CustomNavLinkSmall>
+
+
+       <S.CustomNavLinkSmall onClick={() => scrollTo("contact")}>
+          <S.Span>{t("contact")}</S.Span>
+        </S.CustomNavLinkSmall>
+
+            <a href="/login">
+                <button>Login</button>
+            </a>
       </Fragment>
     );
   };
-
   return (
     <S.Header>
       <S.Container>

@@ -1,15 +1,14 @@
 {
-  "title": "Light, Fast & Responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "A propos",
+  "text": "Méditerranée et l’avenir : Les 2 raisons de la création de « Méditerravenir » sont directement évoquées dans notre nom. Créée en 2006 en France, et en 2012 en Tunisie, (de nouvelles créations de Méditerravenir sont prévues).",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "content": "Méditerravenir est aujourd’hui présente sur les 2 rives de la Méditerranée.",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+
+      "content": "Méditerravenir est un médiateur qui déploie une démarche de pédagogie et d’information : l’association promeut les études et expériences porteuses de progrès dans le dialogue entre le Sud et le Nord de la Méditerranée..",
       "icon": "notes.svg"
     }
   ]
