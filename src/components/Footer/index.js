@@ -69,9 +69,9 @@ const Footer = ({ t }) => {
               <Col lg={10} md={10} sm={12} xs={24}>
                 <S.Empty />
                 <S.Language>{t("ADDRESS")}</S.Language>
-                <S.Para>Rancho Santa Margarita</S.Para>
-                <S.Para>2131 Elk Street</S.Para>
-                <S.Para>California</S.Para>
+                <S.Para>18 RUE DE LUSINE CHARGUIA 2</S.Para>
+                <S.Para>Esprit</S.Para>
+                <S.Para>Ariana</S.Para>
               </Col>
               <Col lg={8} md={8} sm={12} xs={24}>
                 <S.Title>{t("Company")}</S.Title>
@@ -97,7 +97,7 @@ const Footer = ({ t }) => {
                     id="select-lang"
                   >
                     <option value="en">English</option>
-                    <option value="es">Español</option>
+                    <option value="es">French</option>
                   </S.LangSelect>
                 </S.Select>
               </Col>
