@@ -42,7 +42,7 @@ const Footer = ({ t }) => {
                     `Do you have any question regarding the project? Feel free to reach out.`
                   )}
                 </S.Para>
-                <a href="mailto:l.qqbadze@gmail.com">
+                <a href="ahmed.benhassine@gmail.com">
                   <S.Chat>{t(`Let's Chat`)}</S.Chat>
                 </a>
               </Col>
@@ -115,7 +115,7 @@ const Footer = ({ t }) => {
               <S.NavLink to="/">
                 <S.LogoContainer>
                   <SvgIcon
-                    src="logo.svg"
+                    src="Metd.jpg"
                     aria-label="homepage"
                     width="101px"
                     height="64px"
@@ -123,26 +123,20 @@ const Footer = ({ t }) => {
                 </S.LogoContainer>
               </S.NavLink>
               <S.FooterContainer>
+
                 <SocialLink
-                  href="https://github.com/Adrinlol/create-react-app-adrinlol"
-                  src="github.svg"
-                />
-                <SocialLink
-                  href="https://twitter.com/Adrinlolx"
+                  href="https://twitter.com/jamaity_tn"
                   src="twitter.svg"
                 />
                 <SocialLink
-                  href="https://www.linkedin.com/in/lasha-kakabadze/"
+                  href="https://www.linkedin.com/groups/opportunit%C3%A9s-Soci%C3%A9t%C3%A9-Civile-8273127"
                   src="linkedin.svg"
                 />
                 <SocialLink
-                  href="https://github.com/Adrinlol/"
-                  src="instagram.svg"
+                  href="https://www.facebook.com/MediterravenirTunisie/"
+                  src="facebook.svg"
                 />
-                <SocialLink
-                  href="https://medium.com/@lashakakabadze/"
-                  src="medium.svg"
-                />
+
               </S.FooterContainer>
             </Row>
           </Container>

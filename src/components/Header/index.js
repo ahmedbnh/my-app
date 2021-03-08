@@ -6,6 +6,7 @@ import {Redirect} from 'react-router-dom';
 
 
 import * as S from "./styles";
+import styled from "styled-components";
 
 const SvgIcon = lazy(() => import("../../common/SvgIcon"));
 const Button = lazy(() => import("../../common/Button"));
@@ -42,6 +43,9 @@ const Header = ({ t }) => {
         <S.CustomNavLinkSmall onClick={() => scrollTo("Service")}>
           <S.Span>{t("Service")}</S.Span>
         </S.CustomNavLinkSmall>
+           <S.CustomNavLinkSmall onClick={() => scrollTo("training")}>
+          <S.Span>{t("Training")}</S.Span>
+        </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall onClick={() => scrollTo("Partenariats")}>
           <S.Span>{t("Partenariats")}</S.Span>
         </S.CustomNavLinkSmall>
@@ -50,10 +54,16 @@ const Header = ({ t }) => {
        <S.CustomNavLinkSmall onClick={() => scrollTo("contact")}>
           <S.Span>{t("contact")}</S.Span>
         </S.CustomNavLinkSmall>
+                  <S.CustomNavLinkSmall
 
-            <a href="/login">
-                <button>Login</button>
+ >
+           <S.Span> <a href="/login">
+                <button type="submit" style={{backgroundColor: '#0275d8',color: 'white', fontSize: '17px',
+                    borderRadius: '5px', border: 'none'}}>Login</button>
             </a>
+               </S.Span>
+                  </S.CustomNavLinkSmall>
+
       </Fragment>
     );
   };

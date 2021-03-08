@@ -26,7 +26,7 @@ const MiddleBlock = ({ title, content, button, t }) => {
                 <Button
                   name="submit"
                   type="submit"
-                  onClick={() => scrollTo("mission")}
+                  onClick={() => scrollTo("about")}
                 >
                   {t(button)}
                 </Button>
