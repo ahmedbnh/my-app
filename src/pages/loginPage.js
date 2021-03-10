@@ -24,12 +24,20 @@ export default function LoginPage() {
                         <label className="custom-control-label" htmlFor="customCheck1">Remember me</label>
                     </div>
                 </div>
-
-                <button type="submit" className="btn btn-primary btn-block"> Submit</button>
-
+                <div className="border border-light p-3 mb-4">
+                <div className="text-center">
+                <button type="submit" className="btn-primary -row-selected">  Login</button>
+                        </div>
+                <div className="text-center">
+                <a href="/signup">
+                <button type="submit" className="btn-primary" >signup</button>
+                </a>
+                </div>
+                </div>
                 <p className="forgot-password text-right">
                     Forgot <a href="#">password?</a>
                 </p>
+
             </form>
                 </div>
         );

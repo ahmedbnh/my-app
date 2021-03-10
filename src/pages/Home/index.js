@@ -3,11 +3,11 @@ import { lazy } from "react";
 import IntroContent from "../../content/IntroContent.json";
 import MiddleBlockContent from "../../content/MiddleBlockContent.json";
 import AboutContent from "../../content/AboutContent.json";
-import MissionContent from "../../content/ServiceContent.json";
-import ProductContent from "../../content/PartenariatContent.json";
+import PartenariatContent from "../../content/PartenariatContent.json";
 import FormationContent from "../../content/FormationContent.json";
 import ContactContent from "../../content/ContactContent.json";
-import EvenementContent from "../../content/EvenementContent.json";
+import ServiceContent from "../../content/ServiceContent.json";
+
 const ContactFrom = lazy(() => import("../../components/ContactForm"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
@@ -45,29 +45,25 @@ const Home = () => {
         title={FormationContent.title}
         content={FormationContent.text}
         section={FormationContent.section}
-        icon="formation.png"
+        icon="forma.png"
         id="training"
       />
+
       <ContentBlock
         type="left"
-        title={EvenementContent.title}
-        content={EvenementContent.text}
-        section={EvenementContent.section}
-        icon="event.jpg"
-        id="Evenement"
-      />
-      <ContentBlock
-        type="right"
-        title={MissionContent.title}
-        content={MissionContent.text}
+        title={ServiceContent.title}
+        content={ServiceContent.text}
+        section={ServiceContent.section}
         icon="service.png"
         id="Service"
       />
 
       <ContentBlock
         type="left"
-        title={ProductContent.title}
-        content={ProductContent.text}
+        title={PartenariatContent.title}
+        content={PartenariatContent.text}
+        section={PartenariatContent.section}
+        Color={PartenariatContent.Color}
         icon="partenariat.jpg"
         id="Partenariats"
       />

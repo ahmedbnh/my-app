@@ -1,4 +1,17 @@
 {
   "title": "Services",
-  "text": ""
+"section": [
+    {
+      "content": "Facilitate south north projects",
+      "icon": "notes.svg"
+
+    },
+  {
+      "content": "Strengthen dialogue",
+      "icon": "notes.svg"
+
+   }
+  ]
+
 }
+
